@@ -1,11 +1,12 @@
 
 ﻿using System;
 
+namespace CriadorDePersonagemRPG;
 class Program
 {
     static void Main()
     {
-        int vida; 
+        int vida = 10; 
         int estamina; 
         int forca; 
         int mana; 
@@ -24,5 +25,8 @@ class Program
         string atkS1;
         string atkS2;
         string atkS3;
+
+        CriadorDeRaca criador = new CriadorDeRaca();
+        criador.cu(vida); // Passa o valor de vida como argumento
     }
 }
