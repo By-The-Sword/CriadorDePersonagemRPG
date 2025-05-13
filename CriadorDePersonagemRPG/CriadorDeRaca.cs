@@ -11,8 +11,13 @@ namespace CriadorDePersonagemRPG
     {
         public void vida(int vida)
         {
-            vida += 30;
-            Console.WriteLine(vida);
+            Console.WriteLine("Escolha uma raça: ");
+            Console.WriteLine("1 - Humano");
+            Console.WriteLine("2 - Elfo");
+            Console.WriteLine("3 - Anão");
+            Console.WriteLine("4 - Orc");
+            Console.WriteLine("5 - Draconiano");
+            Console.WriteLine("6 - Khajiit");
         }
     }
 }

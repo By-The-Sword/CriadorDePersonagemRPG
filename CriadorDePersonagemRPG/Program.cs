@@ -1,5 +1,4 @@
-
-﻿using System;
+using System;
 
 namespace CriadorDePersonagemRPG;
 class Program
@@ -28,5 +27,10 @@ class Program
 
         CriadorDeRaca qualquercoisa = new CriadorDeRaca();
         qualquercoisa.vida(vida);
+
+        // Aguarda interação do usuário antes de encerrar
+        Console.WriteLine("Pressione Enter para sair...");
+        Console.ReadLine();
+
     }
 }
