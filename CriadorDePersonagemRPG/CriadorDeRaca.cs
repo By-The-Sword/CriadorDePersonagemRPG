@@ -9,8 +9,9 @@ namespace CriadorDePersonagemRPG
 {
     internal class CriadorDeRaca
     {
-        public void cu(int vida)
+        public void vida(int vida)
         {
+            vida += 30;
             Console.WriteLine(vida);
         }
     }

@@ -26,7 +26,7 @@ class Program
         string atkS2;
         string atkS3;
 
-        CriadorDeRaca criador = new CriadorDeRaca();
-        criador.cu(vida); // Passa o valor de vida como argumento
+        CriadorDeRaca qualquercoisa = new CriadorDeRaca();
+        qualquercoisa.vida(vida);
     }
 }
