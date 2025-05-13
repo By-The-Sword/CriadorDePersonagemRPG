@@ -1,26 +1,26 @@
 # CriadorDePersonagemRPG
-## Repositório utilizado para a realização do primeiro projeto de preparação, sendo um programa de criação de personagem baseado no estilo RPG em C# 
+## RepositÃ³rio utilizado para a realizaÃ§Ã£o do primeiro projeto de preparaÃ§Ã£o, sendo um programa de criaÃ§Ã£o de personagem baseado no estilo RPG em C# 
 
-### Explicações de variáveis e constantes que serão utiliziadas:
+### ExplicaÃ§Ãµes de variÃ¡veis e constantes que serÃ£o utiliziadas:
 
 #### Inteiros:
 - int vida > Referente a vida do personagem
 - int estamina > Referente a estamina do personagem
-- int forca > Referente a força do personagem
+- int forca > Referente a forÃ§a do personagem
 - int mana > Referente a mana do personagem
-- int reflexo > Referente à chance de desvio de um ataque inimigo (Deve ser alterada apenas para a classe assassino)
+- int reflexo > Referente Ã  chance de desvio de um ataque inimigo (Deve ser alterada apenas para a classe assassino)
 - int danoArma > Referente ao dano da arma da classe
-- int atkN1 > Referente à primeira habilidade da classe
-- int atkN2 > Referente à segunda habilidade da classe
-- int atkN3 > Referente à terceira habilidade da classe
+- int atkN1 > Referente Ã  primeira habilidade da classe
+- int atkN2 > Referente Ã  segunda habilidade da classe
+- int atkN3 > Referente Ã  terceira habilidade da classe
 
 
 #### Strings:
 - string nomePersonagem > Referente ao nome do personagem
-- string nomePersonagem2 > Referente à confirmação do nome do personagem
-- string escolhaClasse > Referente à classe escolhida
-- string escolhaRaca > Referente à raça escolhida
-- string passiva > Referente à passiva da raça do personagem (cada raça tem uma passiva diferente que aumenta os atributos do mesmo)
+- string nomePersonagem2 > Referente Ã  confirmaÃ§Ã£o do nome do personagem
+- string escolhaClasse > Referente Ã  classe escolhida
+- string escolhaRaca > Referente Ã  raÃ§a escolhida
+- string passiva > Referente Ã  passiva da raÃ§a do personagem (cada raÃ§a tem uma passiva diferente que aumenta os atributos do mesmo)
 - string arma > Referente ao nome da arma, ex: machado, espada, cajado
 - int atkS1 > Referente ao nome da primeira habilidade da classe
 - int atkS2 > Referente ao nome da segunda habilidade da classe
