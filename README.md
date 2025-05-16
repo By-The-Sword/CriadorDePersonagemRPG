@@ -28,9 +28,13 @@
 
   
 ////////////////////////
+
 16/05/25 João victor
+
 PONTOS MELHORADOS:
-criei a base de meu sistema, com o sistema de loop.
+- Criei a base de meu sistema, com o sistema de loop.
+
 PONTOS A SEREM MELHORADOS:
-Falta algum comando para que o usuario consiga misturar letras maiusculas e minusculas.
+- Falta algum comando para que o usuario consiga misturar letras maiusculas e minusculas.
+
 ////////////////////////
