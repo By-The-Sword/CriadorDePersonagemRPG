@@ -25,3 +25,10 @@
 - int atkS1 > Referente ao nome da primeira habilidade da classe
 - int atkS2 > Referente ao nome da segunda habilidade da classe
 - int atkS3 > Referente ao nome da terceira habilidade da classe
+////////////////////////
+16/05/25 João victor
+PONTOS MELHORADOS:
+criei a base de meu sistema, com o sistema de loop.
+PONTOS A SEREM MELHORADOS:
+Falta algum comando para que o usuario consiga misturar letras maiusculas e minusculas.
+////////////////////////
