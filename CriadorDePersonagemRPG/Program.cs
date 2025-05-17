@@ -34,6 +34,6 @@ class Program
         nomePersonagem = criadorDeNome.ObterNomeDoPersonagem(); 
 
         Console.WriteLine($"O nome do personagem é: {nomePersonagem}");
-        // fim
+        // fim.
     }
 }
