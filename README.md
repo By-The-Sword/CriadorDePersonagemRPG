@@ -38,3 +38,11 @@ PONTOS A SEREM MELHORADOS:
 - Falta algum comando para que o usuario consiga misturar letras maiusculas e minusculas.
 
 ////////////////////////
+
+17/05/25   João Victor
+
+PONTOS MELHORADOS
+
+Sistema de nomes concluido
+
+////////////////////////
