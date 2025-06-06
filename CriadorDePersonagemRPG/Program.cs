@@ -25,12 +25,10 @@ class Program
         string atkS2;
         string atkS3;
 
-        CriadorDeRaca qualquercoisa = new CriadorDeRaca();
-        qualquercoisa.vida(vida);
-
-        // Aguarda interação do usuário antes de encerrar
-        Console.WriteLine("Pressione Enter para sair...");
-        Console.ReadLine();
-
+        CriadorDeRaca criador = new CriadorDeRaca();
+        escolhaRaca = criador.escolhaRaca();
+        // Solicita ao usuário que escolha uma raça e valida a entrada
+        Console.WriteLine($"Você escolheu a raça: {escolhaRaca}");// Exibe a raça escolhida pelo usuário
+        Console.ReadLine();// Aguarda o usuário pressionar Enter para continuar
     }
 }
