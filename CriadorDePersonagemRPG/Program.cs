@@ -1,16 +1,18 @@
 using System;
 
+﻿
+
 namespace CriadorDePersonagemRPG;
 class Program
 {
     static void Main()
     {
-        int vida = 10; 
-        int estamina; 
-        int forca; 
-        int mana; 
-        int reflexo; 
-        int danoArma; 
+        int vida = 10;
+        int estamina;
+        int forca;
+        int mana;
+        int reflexo;
+        int danoArma;
         int atkN1;
         int atkN2;
         int atkN3;
@@ -25,10 +27,18 @@ class Program
         string atkS2;
         string atkS3;
 
-        CriadorDeRaca criador = new CriadorDeRaca();
+        
         escolhaRaca = criador.escolhaRaca();
         // Solicita ao usuário que escolha uma raça e valida a entrada
         Console.WriteLine($"Você escolheu a raça: {escolhaRaca}");// Exibe a raça escolhida pelo usuário
         Console.ReadLine();// Aguarda o usuário pressionar Enter para continuar
+    }
+        // instância criada, chama o metodo e exibe no console
+        CriadorDeNome criadorDeNome = new CriadorDeNome();
+        nomePersonagem = criadorDeNome.ObterNomeDoPersonagem(); 
+
+        Console.WriteLine($"O nome do personagem é: {nomePersonagem}");
+        // teste upload
+        // fim.
     }
 }
