@@ -56,7 +56,7 @@ Sistema de nomes concluido
 
 07/06/25 Mota 
 
-PONTOS MELHORADOS
+PONTOS MELHORADOS:
 
 - Resolvendo os erros do código
 - consertando o program.cs 
