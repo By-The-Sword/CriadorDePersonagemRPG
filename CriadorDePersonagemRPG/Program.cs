@@ -14,6 +14,7 @@ namespace CriadorDePersonagemRPG
             int atkN2;
             int atkN3;
 
+
             string nomePersonagem;
             string nomePersonagem2;
             string escolhaClasse;
@@ -23,20 +24,39 @@ namespace CriadorDePersonagemRPG
             string atkS1;
             string atkS2;
             string atkS3;
+            string restart;
 
-            // Instanciar o criador de raça e obter a escolha
-            CriadorDeRaca criadorDeRaca = new CriadorDeRaca();
-            escolhaRaca = criadorDeRaca.escolhaRaca();
-            Console.WriteLine($"Você escolheu a raça: {escolhaRaca}");
-            Console.ReadLine();
-            Console.Clear(); // Limpa o console após a escolha
+            while (true)
+            {
+                // Instanciar o criador de nome e obter o nome do personagem
+                CriadorDeNome criadorDeNome = new CriadorDeNome();
+                nomePersonagem = criadorDeNome.ObterNomeDoPersonagem();
 
-            // Instanciar o criador de nome e obter o nome do personagem
-            CriadorDeNome criadorDeNome = new CriadorDeNome();
-            nomePersonagem = criadorDeNome.ObterNomeDoPersonagem();
+                Console.WriteLine($"O nome do personagem é: {nomePersonagem}");
+                Console.Clear(); // Limpa o console após a escolha
+                // fim.}
 
-            Console.WriteLine($"O nome do personagem é: {nomePersonagem}");
-            // fim.
+                // Instanciar o criador de raça e obter a escolha
+                CriadorDeRaca criadorDeRaca = new CriadorDeRaca();
+                escolhaRaca = criadorDeRaca.escolhaRaca();
+                Console.WriteLine($"Você escolheu a raça: {escolhaRaca}");
+                Console.ReadLine();
+                Console.Clear(); // Limpa o console após a escolha
+
+                Console.WriteLine("Você deseja Reiniciar seu personagem? (sim/não)");
+                restart = Console.ReadLine().ToLower();
+                if (restart == "sim")
+                {
+                    Console.Clear(); // Limpa o console após a escolha
+                    continue;
+                }
+                else if (restart == "não" || restart == "nao")
+                {
+                    Console.Clear(); // Limpa o console após a escolha
+                    break;
+                }
+
+            }
         }
     }
 }
