@@ -1,5 +1,3 @@
-using System;
-
 namespace CriadorDePersonagemRPG
 {
     class Program
@@ -37,7 +35,7 @@ namespace CriadorDePersonagemRPG
             CriadorDeNome criadorDeNome = new CriadorDeNome();
             nomePersonagem = criadorDeNome.ObterNomeDoPersonagem();
 
-            Console.WriteLine($"O nome do personagem é: {nomePersonagem}");           
+            Console.WriteLine($"O nome do personagem é: {nomePersonagem}");
             // fim.
         }
     }
