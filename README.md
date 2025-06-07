@@ -59,10 +59,14 @@ Sistema de nomes concluido
 PONTOS MELHORADOS:
 
 - Resolvendo os erros do código
-- consertando o program.cs 
+- consertando o program.cs
+
+  ////////////////////////
+
+07/06/25 20:23 Manoel
 
 PONTOS MELHORADOS:
-07/06/25 20::23 Manoel
+
 - Mudança do nome da classe atributos para Atributos
 - Conclusão da classe que mostra os atributos
 - Organização do código Main
