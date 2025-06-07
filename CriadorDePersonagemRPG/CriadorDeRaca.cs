@@ -26,7 +26,7 @@ namespace CriadorDePersonagemRPG
             }
             // Retorna a raça escolhida
             string[] racas = { "Humano", "Elfo", "Anão", "Orc", "Khajit" };// Array com as raças disponíveis
-            return racas[escolha - 1];// Retorna a raça correspondente à escolha do usuário
+            return racas[escolha - 1];// Retorna a raça correspondente à escolha do usuário            
         }
     }
 }

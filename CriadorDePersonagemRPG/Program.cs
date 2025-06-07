@@ -1,44 +1,44 @@
 using System;
 
-﻿
-
-namespace CriadorDePersonagemRPG;
-class Program
+namespace CriadorDePersonagemRPG
 {
-    static void Main()
+    class Program
     {
-        int vida = 10;
-        int estamina;
-        int forca;
-        int mana;
-        int reflexo;
-        int danoArma;
-        int atkN1;
-        int atkN2;
-        int atkN3;
+        static void Main()
+        {
+            int vida = 10;
+            int estamina;
+            int forca;
+            int mana;
+            int reflexo;
+            int danoArma;
+            int atkN1;
+            int atkN2;
+            int atkN3;
 
-        string nomePersonagem;
-        string nomePersonagem2;
-        string escolhaClasse;
-        string escolhaRaca;
-        string passiva;
-        string arma;
-        string atkS1;
-        string atkS2;
-        string atkS3;
+            string nomePersonagem;
+            string nomePersonagem2;
+            string escolhaClasse;
+            string escolhaRaca;
+            string passiva;
+            string arma;
+            string atkS1;
+            string atkS2;
+            string atkS3;
 
-        
-        escolhaRaca = criador.escolhaRaca();
-        // Solicita ao usuário que escolha uma raça e valida a entrada
-        Console.WriteLine($"Você escolheu a raça: {escolhaRaca}");// Exibe a raça escolhida pelo usuário
-        Console.ReadLine();// Aguarda o usuário pressionar Enter para continuar
-    }
-        // instância criada, chama o metodo e exibe no console
-        CriadorDeNome criadorDeNome = new CriadorDeNome();
-        nomePersonagem = criadorDeNome.ObterNomeDoPersonagem(); 
+            // Instanciar o criador de raça e obter a escolha
+            CriadorDeRaca criadorDeRaca = new CriadorDeRaca();
+            escolhaRaca = criadorDeRaca.escolhaRaca();
+            Console.WriteLine($"Você escolheu a raça: {escolhaRaca}");
+            Console.ReadLine();
+            Console.Clear(); // Limpa o console após a escolha
 
-        Console.WriteLine($"O nome do personagem é: {nomePersonagem}");
-        // teste upload
-        // fim.
+            // Instanciar o criador de nome e obter o nome do personagem
+            CriadorDeNome criadorDeNome = new CriadorDeNome();
+            nomePersonagem = criadorDeNome.ObterNomeDoPersonagem();
+
+            Console.WriteLine($"O nome do personagem é: {nomePersonagem}");           
+            // fim.
+        }
     }
 }
