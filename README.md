@@ -51,3 +51,12 @@ Sistema de nomes concluido
 
 - Criei o sistema de raças, com validação de entrada e um array mostrando as opções disponíveis.
 - Adicionei comentários tanto a parte de raças quanto ao program.cs, para que fique bem claro o que foi feito.
+
+////////////////////////
+
+07/06/25 Mota 
+
+PONTOS MELHORADOS
+
+- Resolvendo os erros do código
+- consertando o program.cs 
