@@ -33,6 +33,7 @@ namespace CriadorDePersonagemRPG
             CriadorDeNome criadorDeNome = new CriadorDeNome();
             CriadorDeRaca criadorDeRaca = new CriadorDeRaca();
             Atributos mostrarAtributos = new Atributos();
+            CriadorDeClasse criadorDeClasse = new CriadorDeClasse();
 
 
             // Sistema de Arrepemdimento.
@@ -44,12 +45,16 @@ namespace CriadorDePersonagemRPG
                      Console.ReadLine(); // Press enter to continue
                      Console.Clear(); // Limpa o console após a escolha
 
-                     // Usando o método escolhaRaca para obter a classe do personagem.
+                     // Usando o método escolhaRaca para obter a raça do personagem.
                      escolhaRaca = criadorDeRaca.escolhaRaca(); 
                      Console.WriteLine($"Você escolheu a raça: {escolhaRaca}");
                      Console.ReadLine(); 
-                     Console.Clear(); 
+                     Console.Clear();
 
+                    // usndo o método escolhaClasse para obter a classe do personagem 
+                      escolhaClasse = criadorDeClasse.ObterClasse();
+                      Console.ReadLine();
+                      Console.Clear();
 
 
 
