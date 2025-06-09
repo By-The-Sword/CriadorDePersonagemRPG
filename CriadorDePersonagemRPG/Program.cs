@@ -43,6 +43,11 @@ namespace CriadorDePersonagemRPG
                 Console.ReadLine();
                 Console.Clear(); // Limpa o console após a escolha
 
+
+                CriadorDeClasse criadorDeClasse = new CriadorDeClasse();
+                escolhaClasse = criadorDeClasse.ObterClasse();
+
+
                 Console.WriteLine("Você deseja Reiniciar seu personagem? (sim/não)");
                 restart = Console.ReadLine().ToLower();
                 if (restart == "sim")
