@@ -13,6 +13,7 @@
 - int atkN1 > Referente à primeira habilidade da classe - classe
 - int atkN2 > Referente à segunda habilidade da classe - classe
 - int atkN3 > Referente à terceira habilidade da classe - classe
+- int ouro > Referente à quantidade de dinheiro do personagem
 
 
 #### Strings:
@@ -22,10 +23,14 @@
 - string escolhaRaca > Referente à raça escolhida
 - string passiva > Referente à passiva da raça do personagem (cada raça tem uma passiva diferente que aumenta os atributos do mesmo) - raça
 - string arma > Referente ao nome da arma, ex: machado, espada, cajado - classe
-- int atkS1 > Referente ao nome da primeira habilidade da classe - classe
-- int atkS2 > Referente ao nome da segunda habilidade da classe - classe
-- int atkS3 > Referente ao nome da terceira habilidade da classe - classe
+- string atkS1 > Referente ao nome da primeira habilidade da classe - classe
+- string atkS2 > Referente ao nome da segunda habilidade da classe - classe
+- string atkS3 > Referente ao nome da terceira habilidade da classe - classe
 
+#### Sistema de Cidade:
+- Loja
+- Armeiro
+- Arena
   
 ////////////////////////
 
