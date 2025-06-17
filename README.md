@@ -28,9 +28,33 @@
 - string atkS3 > Referente ao nome da terceira habilidade da classe - classe
 
 #### Sistema de Cidade:
-- Loja
-- Armeiro
-- Arena
+-> Armeiro:
+Cada personagem terá 5 armas compráveis, seu valor respectivo será: 700, 1250, 2000, 2150, 3000
+As armas serão divididas por classe.
+
+strings:
+- nomeArma > Referente ao nome da arma.
+- psArma > Referente à descrição da passiva da arma
+
+int:
+- danoArma > Referente à quantidade de dano da arma
+- pnArma > Referente ao dano da passiva da arma
+
+-> Loja:
+Os itens da loja serão encarados como consumíveis, serão os mesmos independente das classes.
+
+Itens:
+- Jarro de fogo > causa 200 de dano
+-  Jarro de congelamento > causa 150 de dano + 50% de chance de congelamento do alvo
+-  Jarro de eletricidade > causa 450 de dano
+-  Poção de força > Duplica o valor da força
+-  Poção de vida > Duplica o valor da vida
+-  Poção de mana > Duplica o valor da mana
+-  Poção de estamina > Duplica o valor da estamina
+-  Estus > Cura o personagem
+
+-> Arena: 
+Opção que se refere à arena de combates no jogo, ao clicar nela o jogador terá a possibilidade de enfrentar 5 inimigos, o quais serão criados posteriormente
   
 ////////////////////////
 
