@@ -131,3 +131,16 @@ Opção que se refere à arena de combates no jogo, ao clicar nela o jogador ter
 - int forca > Referente a força do personagem - classe/raça
 - int mana > Referente a mana do personagem - classe/raça
 - int danoArma > Referente ao dano da arma INICIAL da classe - classe/raça
+
+////////////////
+
+João 18/06/25
+PONTOS MELHORADOS:
+
+Arquivos Arma e Armeiro criados, caracteristicas de armas setadas
+
+PONTOS A MELHORAR: 
+
+Falta criar armeiro
+
+////////////////
