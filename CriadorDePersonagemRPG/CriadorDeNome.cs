@@ -42,14 +42,15 @@ namespace CriadorDePersonagemRPG
                 else
                 {
                     Console.WriteLine("\nResposta inválida. Digite 'sim' ou 'não'.");
-
+                    Console.ReadKey();
+                    Console.Clear();
                 }
                 // fim do loop
-        
-
+                
             }
 
             return nomePersonagem;
+         
 
         }
     }
