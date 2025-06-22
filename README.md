@@ -144,3 +144,17 @@ PONTOS A MELHORAR:
 Falta criar armeiro
 
 ////////////////
+
+Mota 22/06/2025
+PONTOS MELHORADOS: 
+
+Arquivo passivas criado.
+
+PONTOS A MELHORAR: 
+
+Juntar as passivas com a raça para mostrar na tela quais são as de cada raça para o jogador escolher.
+
+
+
+
+
